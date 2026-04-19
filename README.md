@@ -38,11 +38,6 @@ pip install -r requirements.txt
 
 # 4. Run the app
 streamlit run app.py
-```
-
-The app will open automatically at **http://localhost:8501**
-
----
 
 ## 📁 Project Structure
 
@@ -80,14 +75,7 @@ hospital-management-system/
 
 ---
 
-## 🌐 Deploy on Streamlit Cloud (Free)
 
-1. Push this repository to GitHub.
-2. Visit [share.streamlit.io](https://share.streamlit.io) and sign in with GitHub.
-3. Click **"New app"** → select your repo → set **Main file path** to `app.py`.
-4. Click **Deploy** — your app goes live in ~60 seconds!
-
----
 
 ## 🛠️ Tech Stack
 
@@ -104,11 +92,3 @@ hospital-management-system/
 - To wire up a real database, replace the lists in `data.py` with SQLite / PostgreSQL queries.
 
 ---
-
-## 📄 License
-
-MIT License — free to use, modify, and distribute.
-
----
-
-*Built with ❤️ for learning and portfolio purposes.*
