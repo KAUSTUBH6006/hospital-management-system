@@ -1,6 +1,6 @@
 import streamlit as st
 from data import HOSPITAL_INFO, PATIENTS, ROOMS
-from pages import patients_page, rooms_page, hospital_info_page
+import patients_page, rooms_page, hospital_info_page
 from styles import get_styles
 
 st.set_page_config(
