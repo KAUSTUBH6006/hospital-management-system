@@ -104,7 +104,7 @@ with st.sidebar:
 page = st.session_state.page
 
 if page == "Dashboard":
-    from pages import dashboard_page
+    import dashboard_page
     dashboard_page.render()
 elif page == "Patients":
     patients_page.render()
